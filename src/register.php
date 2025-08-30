@@ -34,11 +34,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
-  <link href="bootstrap-5.3.8-dist/css/bootstrap.css" rel="stylesheet">
+  <!-- Pastikan path CSS sesuai -->
+  <link href=" ./output.css" rel="stylesheet">
 </head>
 <body>
-  <div class="min-h-screen flex items-center justify-center bg-green-500">
+  <div class="min-h-screen flex items-center justify-center bg-blue-500">
     <div class="flex w-full max-w-5xl bg-white rounded-2xl overflow-hidden shadow-2xl">
       
       <!-- Left Image Section -->
@@ -84,7 +84,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             Buat Akun Dulu
           </button>
         </form>
-  <br>
+
         <!-- Link ke Login -->
         <p class="text-sm text-gray-600 text-center mt-6">
           Sudah punya akun? <a href="login.php" class="text-green-600 font-medium hover:underline">Login di sini</a>
@@ -92,6 +92,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       </div>
     </div>
   </div>
-  <script src="bootstrap-5.3.8-dist/js/bootstrap.js"></script>
 </body>
 </html>
