@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Link CSS (pastikan output.css ada di folder src) -->
-  <link href="output.css" rel="stylesheet">
+  <link href="dist/output.css" rel="stylesheet">
 </head>
 <body>
   <div class="min-h-screen flex items-center justify-center bg-blue-500">
@@ -40,7 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       
       <!-- Left Image Section -->
       <div class="hidden md:flex w-1/2 relative">
-        <img src="image/image.png" alt="Login Background" class="w-full h-full object-cover">
+        <img src="src/image/image.png" alt="Login Background" class="w-full h-full object-cover">
         <div class="absolute inset-0 bg-opacity-30 flex flex-col items-center justify-center text-center p-6">
           <h1 class="text-white text-4xl font-bold font-serif">Selamat Datang</h1>
           <p class="text-white mt-3 text-lg">
