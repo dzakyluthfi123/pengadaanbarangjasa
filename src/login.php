@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Link CSS (pastikan output.css ada di folder src) -->
-  <link href=" ./output.css" rel="stylesheet">
+  <link href="output.css" rel="stylesheet">
 </head>
 <body>
   <div class="min-h-screen flex items-center justify-center bg-blue-500">
@@ -118,7 +118,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   
         <!-- Register Link -->
         <p class="text-sm text-gray-600 text-center mt-6">
-          Don’t have an account? <a href="register.php" class="text-blue-600 font-medium hover:underline">Register Now</a>
+          Don’t have an account? <a href="src/register.php" class="text-blue-600 font-medium hover:underline">Register Now</a>
         </p>
       </div>
     </div>
