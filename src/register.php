@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Pastikan path CSS sesuai -->
-  <link href="dist/.output.css" rel="stylesheet">
+  <link href="src/dist/output.css" rel="stylesheet">
 </head>
 <body>
   <div class="min-h-screen flex items-center justify-center bg-blue-500">
